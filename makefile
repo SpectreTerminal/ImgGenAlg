@@ -6,9 +6,6 @@ JAR=GenAlg.jar
 GenAlg:
 	java -jar -Dfile.encoding=$(ENCODE) $(JAR)
 
-code:
-	cd $(DIRECTORY); javac --source-path $(DIRECTORY) *.java; java -cp $(DIRECTORY) -Dfile.encoding=$(ENCODE) src.Driver
-
 # for cleaning purposes
 clean:
 	cd $(DIRECTORY); rm $(AUX) 
