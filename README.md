@@ -9,10 +9,10 @@ A genetic algorithm takes inspiration from natural selection. A population of in
 Taken from [Wikipedia on Genetic Algorithms][1].
 
 ## About this Project
-The goal is to apply concepts of the genetic algorithm to re-create a provided image. This uses individuals, each holding an array of pixels (the image itself), and the fitness itself. In this context, a lower fitness value indicates a **stronger** individual, that the individual's image has a better resemblance to the original image.
+The goal is to apply concepts of the genetic algorithm to re-create a provided image. Each individual holds an array of pixels representing its attempt at recreating the provided image, and its fitness itself. In this context, a lower fitness value indicates a **stronger** individual. That is, the individual's image has a _better_ resemblance to the original image.
 
 ## Running this Project
-A JAR file and supporting makefile is available in the root directory of the repository. 
+A JAR file and supporting makefile are available in the root directory of the repository. 
 1. Download these files, along with the `data` directory.
 2. Ensure that all files are together in the same directory.
 3. Run `make GenAlg` where the makefile is located.
